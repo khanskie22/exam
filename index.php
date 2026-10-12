@@ -43,7 +43,7 @@ function tokenField(): void { echo '<input type="hidden" name="token" value="' .
 </header>
 <main class="container py-4 py-lg-5">
     <div class="intro d-flex justify-content-between align-items-end gap-3 mb-4">
-        <div><div class="eyebrow mb-2">A LITTLE PREP. A GREAT SCHOOL DAY.</div><h1>Good things start here.</h1><p class="text-secondary mb-0">Pick your supplies, check your cart, and you’re ready for class.</p></div>
+        <div><div class="eyebrow mb-2">BOGO KA</div><h1>Good things start here.</h1><p class="text-secondary mb-0">Pick your supplies, check your cart, and you’re ready for class.</p></div>
         <span class="cash-badge">● Cash payments</span>
     </div>
     <?php if ($error): ?><div class="alert alert-danger" role="alert"><?= escape($error) ?></div><?php endif; ?>
